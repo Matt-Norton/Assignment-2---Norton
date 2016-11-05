@@ -1,0 +1,117 @@
+/* Custom CSS */
+
+
+.carousel {
+      margin-bottom: 60px;
+	  width: 500px;
+	  margin: 0 auto;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 180px;
+      margin-top: 300px;
+      font-size: 120px;
+      text-shadow: 0 1px 1px white;
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 850px;
+	  width: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      max-width: none;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+	#King2{	
+  	  display: block;
+  	  max-width:300px;
+  	  max-height:300px;
+  	  width: auto;
+  	  height: auto;
+	}
+	#Carrie2{	
+ 	  display: block;
+  	  max-width:400px;
+  	  max-height:400px;
+      width: auto;
+      height: auto;
+}
+@font-face {
+    font-family: 'dayposterblackregular';
+    src: url('../fonts/dayposterblack_regular_macroman/DAYPBL__-webfont.eot');
+    src: url('../fonts/dayposterblack_regular_macroman/DAYPBL__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dayposterblack_regular_macroman/DAYPBL__-webfont.woff') format('woff'),
+         url('../fonts/dayposterblack_regular_macroman/DAYPBL__-webfont.ttf') format('truetype'),
+         url('../fonts/dayposterblack_regular_macroman/DAYPBL__-webfont.svg#dayposterblackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'credit_valleybold';
+    src: url('../fonts/creditvalleybold-webfont.eot');
+    src: url('../fonts/creditvalleybold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/creditvalleybold-webfont.woff2') format('woff2'),
+         url('../fonts/creditvalleybold-webfont.woff') format('woff'),
+         url('../fonts/creditvalleybold-webfont.ttf') format('truetype'),
+         url('../fonts/creditvalleybold-webfont.svg#credit_valleybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+header h1 {
+	font-family: "dayposterblackregular", Impact, Arial, sans-serif;
+	color: rgb(0, 150, 204);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 6em;
+}
+header h2 {
+	font-family: "credit_valleybold", Impact, Arial, sans-serif;
+	font-size: 4em;
+	text-align: center;
+				
+}
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 15px;
+
+}
+h1{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+	
+	
